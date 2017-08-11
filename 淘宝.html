@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>淘！我喜欢</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<!-- title开始 -->
+	<div class='title'>
+		<div class='t-menu'>
+			<ul class='left'>
+				<li><a href="#" class='f40'>亲，请登录</a>&nbsp;&nbsp;<a href="#">免费注册</a></li>
+				<li><a href="#">手机逛淘宝</a></li>
+			</ul>
+			<ul class='right'>
+				<li>
+					<a href="#">我的淘宝</a><span class='icon'>&#xe630;</span>
+					<div class='draw hide'>
+						<a href="">已买到的宝贝</a>
+						<a href="">我的足迹</a>
+					</div>
+				</li>
+				<li>
+					<span class='icon f40'>&#xf0082;</span> <a href="#">购物车</a><span class='icon'>&#xe630;</span>
+					<div class='draw hide car'>
+						您购物车里还没有任何宝贝。<a href="">查看我的购物车</a>
+					</div>
+				</li>
+				<li>
+					<span class='icon'>&#xe627;</span>
+					<a href="#"> 收藏夹</a>
+					<span class='icon'>&#xe630;</span>
+					<div class='draw hide'>
+						<a href="">收藏的店铺</a>
+						<a href="">收藏的宝贝</a>
+					</div>
+				</li>
+				<li><a href="#">商品分类</a></li>
+				<li class='pipe'>|</li>
+				<li>
+					<a href="#">卖家中心</a><span class='icon'>&#xe630;</span>
+					<div class='draw hide'>
+						<a href="">免费开店</a>
+						<a href="">已卖出的宝贝</a>
+						<a href="">出售中的宝贝</a>
+						<a href="">卖家服务市场</a>
+						<a href="">卖家培训中心</a>
+					</div>
+				</li>
+				<li>
+					<a href="#">联系客服</a><span class='icon'>&#xe630;</span>
+					<div class='draw hide'>
+						<a href="">消费者客服</a>
+						<a href="">卖家服务</a>
+					</div>
+				</li>
+				<li><span class='icon f40'>&#xe613;</span><a href="#"> 网站导航</a><span class='icon'>&#xe630;</span></li>
+			</ul>
+		</div>
+	</div>
+	<!-- title结束 -->
+
+	<!-- 置顶广告开始 -->
+	<div class='ad'>
+		<div>
+			<img src="images/top_ad.png" alt="">
+		</div>
+	</div>
+	<!-- 置顶广告结束 -->
+
+	<!-- 搜索开始 -->
+	<div class='search'>
+		<div class='s-menu'>
+			<div>
+				<h1><a href=""><img src="images/logo.jpg" alt=""></a></h1>
+				<h2><a href=""><img src="images/logo_xiao.png" alt=""></a></h2>
+				<div class='middle baobei-on'>
+					<ul class='s-m-t'>
+						<li class='baobei'>宝贝 </li>
+						<li class='tmao'>天猫</li>
+						<li class='dianpu'>店铺</li>
+					</ul>
+					<div class='s-m-m'>
+						<form action="" class=''>
+							<input type="text" class='text'>
+							<input type="button" value="搜索" class='btn'>
+						</form>
+						<div class='dec'>
+							<em class='baobei-dec'>海澜之家</em>
+							<em class='tmao-dec'>清新小短裤，秒变大长腿</em>
+							<em class='dianpu-dec'></em>
+						</div>
+						<span class='icon fdj'>&#xe607;</span>
+						<span class='icon zxj'>&#xe60a;</span>
+						<a href="" class='gj-search'>高级<br>搜索</a>
+					</div>
+					<ul class="s-m-b">
+						<li class='baobei-li'>
+							<a href="" class='f40'>机械键盘</a>
+							<a href="">连衣裙</a>
+							<a href="" class='f40'>时尚女包</a>
+							<a href="">女士凉鞋</a>
+							<a href="">女T恤</a>
+							<a href="" class='f40'>雪纺衫</a>
+							<a href="">双肩包</a>
+							<a href="">女士泳衣</a>
+							<a href="">男包</a>
+							<a href="">妈妈装</a>
+							<a href="">行车记录仪</a>
+							<a href="">沙发</a>
+							<a href="" class='more'>更多<span class='icon'>&#xf006a;</span></a>
+						</li>
+						<li class='tmao-li'>
+							<a href="">a字裙</a>
+							<a href="" class='c60'>空调</a>
+							<a href="">短裤男</a>
+							<a href="" class='c60'>凉鞋</a>
+							<a href="">台灯</a>
+							<a href="">伞</a>
+							<a href="" class='c60'>蚊帐</a>
+							<a href="">蓝牙耳机</a>
+							<a href="" class='c60'>运动鞋</a>
+							<a href="">女包</a>
+							<a href="">洗衣液</a>
+							<a href="" class='c60'>夏凉被</a>
+							<a href="">大码女装</a>
+							<a href="">文胸</a>
+							<a href="" class='c60'>t恤男</a>
+						</li>
+						<li class='dianpu-li'>
+							<a href="" class='f40'>机械键盘</a>
+							<a href="">连衣裙</a>
+							<a href="" class='f40'>时尚女包</a>
+							<a href="">女士凉鞋</a>
+							<a href="">女T恤</a>
+							<a href="" class='f40'>雪纺衫</a>
+							<a href="">双肩包</a>
+							<a href="">女士泳衣</a>
+							<a href="">男包</a>
+							<a href="">妈妈装</a>
+							<a href="">行车记录仪</a>
+							<a href="">沙发</a>
+							<a href="" class='more'>更多<span class='icon'>&#xf006a;</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<p>
+				<a href="">手机淘宝</a>
+				<img src="images/qr.png" alt="">
+				<span class='icon'>&#xe647;</span>
+			</p>
+			
+		</div>
+	</div>
+	<!-- 搜索结束 -->
+
+	<!-- list开始 -->
+	<div class="list">
+		<div class="left">
+			<a href="" class='l-title'>
+				<h3><span class='icon'>&#xe605;</span>主题市场</h3>
+			</a>
+			<ul class='l-ul'>
+				<li>
+					<span class='icon'>&#xe600;</span><i class='icon'>&#xf006a;</i><a href="">女装</a> / <a href="">男装</a> / <a href="">内衣</a>
+					<div class='l-menu'>
+						<img src="images/test/submenu1.jpg" alt="">
+					</div>
+				</li>
+				<li><span class='icon'>&#xe600;</span><i class='icon'>&#xf006a;</i><a href="">女装</a> / <a href="">男装</a> / <a href="">内衣</a>
+				<div class='l-menu'>
+						<img src="images/test/submenu2.jpg" alt="">
+					</div></li>
+				<li><span class='icon'>&#xe600;</span><i class='icon'>&#xf006a;</i><a href="">女装</a> / <a href="">男装</a> / <a href="">内衣</a>
+				<div class='l-menu'>
+						<img src="images/test/submenu3.jpg" alt="">
+					</div></li>
+				<li><span class='icon'>&#xe600;</span><i class='icon'>&#xf006a;</i><a href="">女装</a> / <a href="">男装</a> / <a href="">内衣</a>
+				<div class='l-menu'>
+						<img src="images/test/submenu4.jpg" alt="">
+					</div></li>
+				<li><span class='icon'>&#xe600;</span><i class='icon'>&#xf006a;</i><a href="">女装</a> / <a href="">男装</a> / <a href="">内衣</a>
+				<div class='l-menu'>
+						<img src="images/test/submenu5.jpg" alt="">
+					</div></li>
+				<li><span class='icon'>&#xe600;</span><i class='icon'>&#xf006a;</i><a href="">女装</a> / <a href="">男装</a> / <a href="">内衣</a>
+				<div class='l-menu'>
+						<img src="images/test/submenu6.jpg" alt="">
+					</div></li>
+				<li><span class='icon'>&#xe600;</span><i class='icon'>&#xf006a;</i><a href="">女装</a> / <a href="">男装</a> / <a href="">内衣</a>
+				<div class='l-menu'>
+						<img src="images/test/submenu7.jpg" alt="">
+					</div></li>
+				<li><span class='icon'>&#xe600;</span><i class='icon'>&#xf006a;</i><a href="">女装</a> / <a href="">男装</a> / <a href="">内衣</a>
+				<div class='l-menu'>
+						<img src="images/test/submenu8.jpg" alt="">
+					</div></li>
+				<li><span class='icon'>&#xe600;</span><i class='icon'>&#xf006a;</i><a href="">女装</a> / <a href="">男装</a> / <a href="">内衣</a>
+				<div class='l-menu'>
+						<img src="images/test/submenu9.jpg" alt="">
+					</div></li>
+				<li><span class='icon'>&#xe600;</span><i class='icon'>&#xf006a;</i><a href="">女装</a> / <a href="">男装</a> / <a href="">内衣</a>
+				<div class='l-menu'>
+						<img src="images/test/submenu10.jpg" alt="">
+					</div></li>
+				<li><span class='icon'>&#xe600;</span><i class='icon'>&#xf006a;</i><a href="">女装</a> / <a href="">男装</a> / <a href="">内衣</a>
+				<div class='l-menu'>
+						<img src="images/test/submenu11.jpg" alt="">
+					</div></li>
+				<li><span class='icon'>&#xe600;</span><i class='icon'>&#xf006a;</i><a href="">女装</a> / <a href="">男装</a> / <a href="">内衣</a>
+				<div class='l-menu'>
+						<img src="images/test/submenu12.jpg" alt="">
+					</div></li>
+				<li><span class='icon'>&#xe600;</span><i class='icon'>&#xf006a;</i><a href="">女装</a> / <a href="">男装</a> / <a href="">内衣</a>
+				<div class='l-menu'>
+						<img src="images/test/submenu13.jpg" alt="">
+					</div></li>
+				<li><span class='icon'>&#xe600;</span><i class='icon'>&#xf006a;</i><a href="">女装</a> / <a href="">男装</a> / <a href="">内衣</a>
+				<div class='l-menu'>
+						<img src="images/test/submenu14.jpg" alt="">
+					</div></li>
+				<li><span class='icon'>&#xe600;</span><i class='icon'>&#xf006a;</i><a href="">女装</a> / <a href="">男装</a> / <a href="">内衣</a>
+				<div class='l-menu'>
+						<img src="images/test/submenu15.jpg" alt="">
+					</div></li>
+				<li><span class='icon'>&#xe600;</span><i class='icon'>&#xf006a;</i><a href="">女装</a> / <a href="">男装</a> / <a href="">内衣</a>
+				<div class='l-menu'>
+						<img src="images/test/submenu16.jpg" alt="">
+					</div>
+				</li>
+			</ul>
+			<span class='l-ad'><img src="images/aside-menu-ad.jpg" alt=""></span>
+		</div>
+		<div class="right">
+			<ul class='r-ul'>
+				<li><a href="" class='r-li'>天猫</a></li>
+				<li><a href="" class='r-li'>聚划算</a></li>
+				<li><a href="" class='r-li'>天猫超市</a></li>
+				<li class='pipe'>|</li>
+				<li><a href="">淘抢购</a></li>
+				<li><a href="">电器城</a></li>
+				<li><a href="">司法拍卖</a></li>
+				<li><a href="">中国制造</a></li>
+				<li><a href="">特色中国</a></li>
+				<li class='pipe'>|</li>
+				<li><a href="">阿里旅行</a></li>
+				<li><a href="">智能中国</a></li>
+				<li><a href="">苏宁易购</a></li>
+			</ul>
+			<div class='r-menu'>
+				<div>
+					<div class="r-m-t">
+						<ul>
+							<li><img src="images/focus1/1.jpg" alt=""></li>
+							<li><img src="images/focus1/2.jpg" alt=""></li>
+							<li><img src="images/focus1/3.jpg" alt=""></li>
+							<li><img src="images/focus1/4.jpg" alt=""></li>
+							<li><img src="images/focus1/5.jpg" alt=""></li>
+							<li><img src="images/focus1/1.jpg" alt=""></li>
+						</ul>
+						<ol>
+							<li class='cur'></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ol>
+						<span class='last'>&lt;</span>
+						<span class='next'>&gt;</span>
+						alt="">
+					</div>
+				</div>
+				<img class='f1r' src="images/focus1-right.jpg"> 
+				<div class="r-m-m">
+					<strong class='fl'>天猫必逛</strong>
+					<p class='fl'>热门品牌,天天上天猫!</p>
+					<i class='fr'><em>1</em>/6</i>
+				</div>
+				<div>
+					<div class="r-m-b">
+						<ul>
+							<li><img src="images/focus2/1.jpg" alt=""></li>
+							<li><img src="images/focus2/2.jpg" alt=""></li>
+							<li><img src="images/focus2/3.jpg" alt=""></li>
+							<li><img src="images/focus2/4.jpg" alt=""></li>
+							<li><img src="images/focus2/5.jpg" alt=""></li>
+							<li><img src="images/focus2/6.jpg" alt=""></li>
+							<li><img src="images/focus2/1.jpg" alt=""></li>
+						</ul>
+						<ol>
+							<li class='cur'></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ol>
+						<span class='last'>&lt;</span>
+						<span class='next'>&gt;</span>
+					</div>	
+				</div>
+				<b>今日热卖</b>
+				<img class='f2r' src="images/slider2-right.jpg" alt="">
+				<ul class='r-b'>
+					<li><img src="images/slider3/1.jpg" alt=""></li>
+					<li><img src="images/slider3/2.jpg" alt=""></li>
+					<li><img src="images/slider3/3.jpg" alt=""></li>
+					<li><img src="images/slider3/4.jpg" alt=""></li>
+					<li><img src="images/slider3/5.jpg" alt=""></li>
+				</ul>
+			</div>
+			<div class='r-side'>
+				<div>
+					<img src="images/test/bulb.jpg" alt="">
+					<img src="images/test/notice.jpg" alt="">
+				</div>
+				<ul class='nav'>
+				 	<li>
+				 		<a href="">
+				 		<span></span>
+				 			<p>充话费</p>
+				 		</a>
+				 		<div class='n-main'>
+				 			<img src="images/right-tab/1-1.jpg" alt="">
+				 		</div>
+				 	</li>
+				 	<li>
+				 		<a href="">
+				 		<span></span>
+				 			<p>充话费</p>
+				 		</a>
+				 		<div class='n-main'>
+				 			<img src="images/right-tab/1-2.jpg" alt="">
+				 		</div>
+				 	</li>
+				 	<li>
+				 		<a href="">
+				 		<span></span>
+				 			<p>充话费</p>
+				 		</a>
+				 		<div class='n-main'>
+				 			<img src="images/right-tab/1-3.jpg" alt="">
+				 		</div>
+				 	</li>
+				 	<li>
+				 		<a href="">
+				 		<span></span>
+				 			<p>充话费</p>
+				 		</a>
+				 		<div class='n-main'>
+				 			<img src="images/right-tab/1-4.jpg" alt="">
+				 		</div>
+				 	</li>
+				 	<li>
+				 		<a href="">
+				 		<span></span>
+				 			<p>充话费</p>
+				 		</a>
+				 	</li>
+				 	<li>
+				 		<a href="">
+				 		<span></span>
+				 			<p>充话费</p>
+				 		</a>
+				 	</li>
+				 	<li>
+				 		<a href="">
+				 		<span></span>
+				 			<p>充话费</p>
+				 		</a>
+				 	</li>
+				 	<li>
+				 		<a href="">
+				 		<span></span>
+				 			<p>充话费</p>
+				 		</a>
+				 	</li>
+				 	<li>
+				 		<a href="">
+				 		<span></span>
+				 			<p>充话费</p>
+				 		</a>
+				 	</li>
+				 	<li>
+				 		<a href="">
+				 		<span></span>
+				 			<p>充话费</p>
+				 		</a>
+				 	</li>
+				 	<li>
+				 		<a href="">
+				 		<span></span>
+				 			<p>充话费</p>
+				 		</a>
+				 	</li>
+				 	<li>
+				 		<a href="">
+				 		<span></span>
+				 			<p>充话费</p>
+				 		</a>
+				 	</li>
+				</ul>
+				<div>
+					<img src="images/test/app.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- list结束 -->
+	
+	<div class='m-main'>
+		<!-- 我常逛的开始 -->
+			<div class='haunt'>
+				<p>我常逛的</p>
+				<img src="images/wochangguangde/1.jpg" alt="">
+				<img src="images/wochangguangde/2.jpg" alt="">
+				<img src="images/wochangguangde/3.jpg" alt="">
+				<img src="images/wochangguangde/4.jpg" alt="">
+			</div>
+		<!-- 我常逛的结束 -->
+		<!-- 时尚开始 -->
+			<div class='fashion'>
+				<p>时尚</p>
+				<ul>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+				</ul>
+			</div>
+		<!-- 时尚结束 -->
+		<!-- 品质开始 -->
+			<div class='life'>
+				<p>品质</p>
+				<ul>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>			</ul>
+			</div>
+		<!-- 品质结束 -->
+		<!-- 特色开始 -->
+			<div class='special'>
+				<p>特色</p>
+				<ul>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>			
+				</ul>
+			</div>
+		<!-- 特色结束 -->
+		<!-- 实惠开始 -->
+			<div class='cheap'>
+				<p>实惠</p>
+				<ul>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+				</ul>
+			</div>
+		<!-- 实惠结束 -->
+		<!-- 猜你喜欢开始 -->
+			<div class='guess'>
+				<p>猜你喜欢</p>
+				<ul>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>
+					<li><img src="images/pinzhishenghuojia/1.png" alt=""></li>			
+				</ul>
+			</div>
+		<!-- 猜你喜欢结束 -->
+	</div>
+	
+
+	<!-- 右边导航开始 -->
+	<div class="sidebar">
+		<ul>
+			<li class='often click'><strong>我常<br>逛的</strong></li>
+			<li class='fashion'><strong>时尚</strong></li>
+			<li class='life'><strong>品质</strong></li>
+			<li class='special'><strong>特色</strong></li>
+			<li class='cheap'><strong>实惠</strong></li>
+			<li class='guess'><strong>猜你<br>喜欢</strong></li>
+			<li class='top'><strong><span class='icon'>&#xe678;</span><br>顶部</strong></li>
+			<li><strong><a href="">反馈</a></strong></li>
+			<li class='lh17'><a href="">暴恐<br>举报</a></li>
+		</ul>
+	</div>
+	<!-- 右边导航结束 -->
+</body>
+</html>
